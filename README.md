@@ -6,6 +6,17 @@
 
 [Documentation](https://intel.github.io/intel-npu-acceleration-library/)
 
+## Updates by Xinming
+- Solve problems when building on Ubuntu 24.04
+- Add some missing packages for running the examples
+
+Now the library should be installed from local instead of the pip hub.
+```bash
+source setup.sh
+```
+Then you can run the examples under `examples/`.
+
+-----------------------------------------
 The Intel® NPU Acceleration Library is a Python library designed to boost the efficiency of your applications by leveraging the power of the Intel Neural Processing Unit (NPU) to perform high-speed computations on compatible hardware.
 
 _Note: The **Intel® NPU Acceleration Library** is currently in active development, with our team  working to introduce a variety of features that are anticipated to dramatically enhance performance. For performant production ready solutions please refer to like [OpenVINO](https://github.com/openvinotoolkit/openvino) or [DirectML](https://devblogs.microsoft.com/directx/introducing-neural-processor-unit-npu-support-in-directml-developer-preview/). _
